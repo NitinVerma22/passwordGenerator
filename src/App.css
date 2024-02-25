@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  height: 100vh;
+  margin: 20px auto;
+ padding: 2rem;
+  text-align: center;
+}
+body{
+  background-image: url(/src/images/bgimage.jpeg);
+  background-size: cover;
+}
+.container{
+  border: solid 2px ;
+  width: 35vw;
+  height: 40vh;
+  margin: auto;
+  /* height: 90vh; */
+  background-color: rgb(124, 171, 195);
+  color: white;
+  border: solid 2px rgb(11, 58, 105);
+  box-shadow: 0px 0px 40px 40px rgb(72, 142, 185);
+}
+.paswordhere{
+  height: 35px;
+  width: 300px;
+}
+.copy{
+  background-color: rgb(10, 117, 239);
+  margin: 5px;
+  height: 35px;
+  padding: 2px;
+  width: 80px;
+  margin-top: 8px;
+}
+#tt{
+  margin: 6px;
+  margin-bottom: 20px;
+}
+h1{
+   margin: 0px;
+   margin-bottom: 5vh;
+   color: chartreuse;
+}
+label{
+  color: rgb(243, 251, 4);
+  font-weight: 900;
+}
+#generatePassword{
+  height: 40px;
+  padding: 5px;
+  background-color: rgb(62, 62, 187);
+}
